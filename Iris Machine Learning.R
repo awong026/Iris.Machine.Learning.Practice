@@ -41,7 +41,7 @@ cbind(freq= table(dataset$Species), percentage = percentage)
 #Get a summary of each thing in the dataset 
 summary(dataset)
 
---------------------------------------------------------------------------------------------------------
+###############################################################################################3
   
 #Create univarte plot of data to see how each attribute is structured
   
@@ -74,7 +74,8 @@ scales <- list(x = list(relation="free"), y = list(relation = "free"))
 featurePlot(x=x, y=y, plot ="density", scales = scales)
 
 
------------------------------------------------------------------------
+################################################################################################
+
   
 #Evaluate some models against others (1. setup test harness to use 10 fold cross validation, 2. build 5 models to predict species from flower measurements, 3. select best model)
   
